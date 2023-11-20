@@ -6,6 +6,14 @@ on:
     push:
         branch:
             - main:
+
+    pull_request:
+        types:
+            - opened
+            - reopened
+            
+        branches:
+            - main    
     
 
 jobs:

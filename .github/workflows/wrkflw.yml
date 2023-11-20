@@ -13,6 +13,8 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: step with name
-            - run: echo "This is a step with a name"
+              run: echo "This is a step with a name"
 
             - run: echo "No name"
+
+            
